@@ -47,6 +47,14 @@ console.log("22" == 22);
 // rule#6&7 if x or y is boolean first boolean will be converted ToNumber then next process happen
 
 console.log(false == "0");
+/*
+steps false ---> number ---> 0 
+      "0" ---> number --->0
+      hence 0==0 ---> strict equility operater 
+      there ---> 0===0 --->true 
+
+*/
+
 console.log("0" == false);
 
 // rule #8 &9 if

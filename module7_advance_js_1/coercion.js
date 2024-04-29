@@ -29,4 +29,4 @@ console.log("22" / "10");
 
 //ToNumber operation converts every datatype into number
 
-console.log(Number(undefined));
+console.log(Number(undefined)); // NaN

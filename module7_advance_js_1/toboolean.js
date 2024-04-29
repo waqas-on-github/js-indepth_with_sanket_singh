@@ -15,3 +15,6 @@ console.log(!undefined);
 console.log(!"");
 // check for truthy
 console.log(!-29);
+
+console.log(!"false"); // false 
+/* how  string "false"  is a truthy value so  so negation of truthy gonna be false */
