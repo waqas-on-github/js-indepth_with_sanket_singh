@@ -9,3 +9,13 @@ if (true) {
 }
 
 console.log(x); // globle "x"
+
+
+// while let has no sence of funcation scope but it has sence of block scope braces of funcaton are also block like ...
+
+function gun() {
+  console.log(y);
+  let y = 20;
+  console.log(y);
+}
+  
