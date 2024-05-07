@@ -1,10 +1,10 @@
 // word "lexical" or "lexer"  mean compile time so scope resoulation on compile time can be called lexical scoping
 
-var teacher = "sanket"; // blong to global scope
 
-function ask(teacher, question) {
+var teacher = "sanket"; // blong to global scope
+function ask(question) {
   // belong to scope
-  console.log(teacher, question);
+  console.log(question, teacher);
 }
 
 function fun() {
@@ -14,3 +14,4 @@ function fun() {
 }
 
 fun();
+

@@ -18,4 +18,10 @@ console.log(xa);
 var xa=22
 console.log(xb); // whaile let is "block scoped" variable so we can not access before its declaration 
 let xb=23
+// var allows redeclaration 
+var x= 10
+var x = 20 
 
+//let dont allow redeclaration 
+let xy =10 
+let xy =20
