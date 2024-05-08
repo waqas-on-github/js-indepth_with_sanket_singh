@@ -1,0 +1,14 @@
+/*
+f---> funcation 
+x--->x argument 
+fn ---> callback funcation
+
+*/
+function f(x, fn) {
+  console.log(x);
+  fn();
+}
+
+f(22, function hofCallback() {
+  console.log("im called funcation expression");
+});
