@@ -55,5 +55,4 @@ console.log("by");
 @10007-> "timeConsumingByLoop" again called and blocke the main thread of excution of 10s so
 during this time above async task are completed but main thread is busy running main funcation inside callstack so above of "async funcation added in callback qeue" so after callstack get empty (by the way event loop is always running infinintly and checking callstack to empty when callstack get empty its pick qeued funcation from callback qeue and add its into callstack one by one accordingly)
  
-
 */
