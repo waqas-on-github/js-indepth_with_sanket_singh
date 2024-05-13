@@ -1,4 +1,4 @@
-// 'same value non number comparision in strict equality operation '
+// same value non number comparision in strict equality operation
 
 // asserts (considiration x is not number and y has same type as x )
 //undefiend
