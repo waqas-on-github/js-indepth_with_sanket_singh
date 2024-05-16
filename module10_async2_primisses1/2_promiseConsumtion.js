@@ -48,3 +48,16 @@ when we consume a promise it'll do few things
 #3rd --> after excution of all global/blocking  code funcations added by promise will be add to callstak one by one  
     
 */
+
+
+/*                .......... KEY POINTS TO REMMEMBER ..............
+
+#1 all promise excuted sync way if there is any async taks itll be delegated to run time like normal js
+#2 utill promise state changes from pending -->[fulfilled |rejected] value of variable we have 
+   stored promise return value will promisate e st
+#3 afetr .then handler will be add to array returned by promise call  
+#4 after promise state change crosponding handler will be add to microtask qeue 
+#5 even if  promise is operforming sync task  they'll be added to microtask qeue 
+#6  microtask qeue will be prefferd on callback qeue 
+
+*/

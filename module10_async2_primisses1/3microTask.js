@@ -65,5 +65,4 @@ console.log("ending ....");
     -->#8 after excuton of all globle code js will start excuting funcation in microtask qeue 
             added by p.then 
     --> #9 after this funcation added in callback qeue on start will be excuted 
-
 */
