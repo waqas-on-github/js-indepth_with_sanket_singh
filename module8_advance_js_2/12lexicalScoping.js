@@ -2,13 +2,12 @@
 
 
 var teacher = "sanket"; // blong to global scope
-function ask(question) {
-  // belong to scope
+
+function ask(question) {  // belong to   scope  
   console.log(question, teacher);
 }
 
-function fun() {
-  // global scope
+function fun() {  // global scope 
   var teacher = "pulkit";
   ask("why?"); // ask funcation called
 }
